@@ -4,7 +4,7 @@ Een moderne, multi-page website voor ICTKanon - Cloud-first IT-beheer & Consulta
 
 ## Versie
 
-1.2.0 (December 2025)
+1.2.1 (December 2025)
 
 ## Overzicht
 
@@ -197,11 +197,18 @@ Copyright © 2025 ICTKanon. Alle rechten voorbehouden.
 
 ---
 
-**Versie:** 1.2.0
+**Versie:** 1.2.1
 **Laatst bijgewerkt:** December 2025
 **Gemaakt voor:** ICTKanon - Cloud-first IT-beheer & Consultancy
 
 ## Changelog
+
+### v1.2.1 (December 2025)
+- ✅ Updated index.html with navigation links to all detail pages
+- ✅ Added Open Graph and Twitter meta tags to index.html
+- ✅ Added "Meer over..." links on homepage sections linking to detail pages
+- ✅ Updated footer navigation on index.html to link to detail pages
+- ✅ Unified all pages with consistent SEO optimization
 
 ### v1.2.0 (December 2025)
 - ✅ Added robots.txt for SEO
