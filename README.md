@@ -4,7 +4,7 @@ Een moderne, multi-page website voor ICTKanon - Cloud-first IT-beheer & Consulta
 
 ## Versie
 
-1.0.0 (December 2024)
+1.1.0 (December 2024)
 
 ## Overzicht
 
@@ -193,10 +193,10 @@ Voor vragen of aanpassingen:
 
 ## Licentie
 
-Copyright © 2024 ICTKanon. Alle rechten voorbehouden.
+Copyright © 2025 ICTKanon. Alle rechten voorbehouden.
 
 ---
 
-**Versie:** 1.0.0
+**Versie:** 1.1.0
 **Laatst bijgewerkt:** December 2024
 **Gemaakt voor:** ICTKanon - Cloud-first IT-beheer & Consultancy
