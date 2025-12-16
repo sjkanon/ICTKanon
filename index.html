@@ -1,325 +1,296 @@
 <!DOCTYPE html>
 <html lang="nl">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="ICTKanon - Cloud-first IT-beheer, Microsoft 365, VoIP telefonie en consultancy. 24/7 monitoring en no-nonsense aanpak.">
-    <title>ICTKanon - Cloud-first IT-beheer & Consultancy</title>
-    <link rel="stylesheet" href="styles.css">
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "ProfessionalService",
-      "name": "ICTKanon",
-      "description": "Cloud-first IT-beheer en consultancy",
-      "url": "https://ictkanon.be",
-      "founder": {
-        "@type": "Person",
-        "name": "Sjoerd Kanon"
-      }
-    }
-    </script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ICTKANON — Slimme ICT-oplossingen voor MKB</title>
+  <meta name="description" content="ICTKANON helpt MKB met moderne werkplekken, telefonie, internet en consultancy. Eerlijk advies, snelle acties, focus op gebruiksgemak." />
+  <meta name="theme-color" content="#0b3a45" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="assets/logo.png" />
+  <meta property="og:title" content="ICTKANON — Slimme ICT-oplossingen voor MKB" />
+  <meta property="og:description" content="Moderne werkplek, telefonie, internet en consultancy. Door Sjoerd Kanon." />
+  <meta property="og:image" content="assets/logo.png" />
+  <meta property="og:type" content="website" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "ICTKANON",
+    "logo": "assets/logo.png",
+    "founder": "Sjoerd Kanon",
+    "sameAs": ["https://www.linkedin.com/in/sjoerdkanon/"]
+  }
+  </script>
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="container">
-            <div class="nav-wrapper">
-                <a href="#home" class="logo">ICTKanon</a>
-                <button class="hamburger" id="hamburger" aria-label="Menu">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
-                <ul class="nav-menu" id="navMenu">
-                    <li><a href="#werkplek" class="nav-link">Werkplek</a></li>
-                    <li><a href="#telefonie" class="nav-link">Telefonie</a></li>
-                    <li><a href="#internet" class="nav-link">Internet</a></li>
-                    <li><a href="#consultancy" class="nav-link">Consultancy</a></li>
-                    <li><a href="#over" class="nav-link">Over</a></li>
-                    <li><a href="#contact" class="nav-link">Contact</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#home" aria-label="ICTKANON">
+        <img src="assets/logo.png" alt="ICTKANON logo" />
+        
+      </a>
+      <button class="nav-toggle" aria-label="Open navigatie" aria-expanded="false">☰</button>
+      <nav class="site-nav" aria-label="Hoofdnavigatie">
+        <a href="#werkplek">Werkplek</a>
+        <a href="#telefonie">Telefonie</a>
+        <a href="#internet">Internet</a>
+        <a href="#consultancy">Consultancy</a>
+        <a href="#over">Over</a>
+        <a href="#contact" class="btn btn-small">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="container">
-            <div class="hero-content">
-                <h1>Cloud-first IT-beheer</h1>
-                <p class="hero-subtitle">24/7 monitoring • 99.9% uptime • No-nonsense</p>
-                <p class="hero-description">Moderne IT-oplossingen voor bedrijven die vooruit willen. Van werkplekbeheer tot telefonie en consultancy.</p>
-                <a href="#contact" class="cta-button">Start het gesprek</a>
-            </div>
+  <main id="home">
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <h1>Jouw <span class="accent">ICT-partner</span> voor het MKB</h1>
+          <p>Moderne werkplekken, professionele telefonie, betrouwbaar internet en no-nonsense consultancy. Eerlijk advies, snelle acties en oog voor jouw mensen.</p>
+          <div class="cta-row">
+            <a class="btn" href="#contact">Plan een kennismaking</a>
+            <a class="link" href="#over">Meer over ons →</a>
+          </div>
+          <ul class="badges" aria-label="Kernexpertise">
+            <li>Microsoft 365</li>
+            <li>Netwerk & WiFi</li>
+            <li>Security by default</li>
+            <li>HaloPSA Consultancy</li>
+          </ul>
         </div>
+        <div class="hero-card" role="img" aria-label="Illustratie van veilige cloud werkplek">
+          <div class="hero-stat">
+            <strong>99.9%</strong>
+            <span>Cloud-first</span>
+          </div>
+          <div class="hero-stat">
+            <strong>24/7</strong>
+            <span>Monitoring</span>
+          </div>
+          <div class="hero-stat">
+            <strong>✔</strong>
+            <span>No-nonsense</span>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <!-- Werkplek Section -->
-    <section id="werkplek" class="section">
-        <div class="container">
-            <h2>Werkplek</h2>
-            <div class="content-grid">
-                <div class="feature-card">
-                    <div class="icon">💼</div>
-                    <h3>Microsoft 365</h3>
-                    <ul>
-                        <li>Volledige tenant-configuratie</li>
-                        <li>Exchange Online beheer</li>
-                        <li>Teams & SharePoint setup</li>
-                        <li>Licentie-optimalisatie</li>
-                    </ul>
-                </div>
-                <div class="feature-card">
-                    <div class="icon">🖥️</div>
-                    <h3>Device Management</h3>
-                    <ul>
-                        <li>Intune MDM/MAM</li>
-                        <li>Autopilot deployment</li>
-                        <li>App-beheer</li>
-                        <li>Compliance policies</li>
-                    </ul>
-                </div>
-                <div class="feature-card">
-                    <div class="icon">🛡️</div>
-                    <h3>Security</h3>
-                    <ul>
-                        <li>Conditional Access</li>
-                        <li>MFA-implementatie</li>
-                        <li>Defender for Business</li>
-                        <li>Security audits</li>
-                    </ul>
-                </div>
-            </div>
+    <section class="section" id="werkplek">
+      <div class="container">
+        <h2>Moderne Werkplek</h2>
+        <p class="lead">Altijd en overal veilig werken met Microsoft 365, Intune en best‑practices voor identity & devices.</p>
+        <div class="grid cards">
+          <article class="card">
+            <h3>Microsoft 365 & Teams</h3>
+            <ul>
+              <li>Adoptie & inrichting van Exchange, SharePoint, OneDrive</li>
+              <li>Teams als centrale hub voor samenwerken</li>
+              <li>Best practices voor lifecycle & governance</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Device management</h3>
+            <ul>
+              <li>Intune/Autopilot: zero‑touch uitrol</li>
+              <li>Standaardisatie & hardening van Windows</li>
+              <li>Update- en patchbeleid zonder gedoe</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Security</h3>
+            <ul>
+              <li>MFA/Conditional Access als standaard</li>
+              <li>Back‑up & herstel getest</li>
+              <li>Security awareness & policies</li>
+            </ul>
+          </article>
         </div>
+      </div>
     </section>
 
-    <!-- Telefonie Section -->
-    <section id="telefonie" class="section section-alt">
-        <div class="container">
-            <h2>Telefonie</h2>
-            <div class="content-grid">
-                <div class="feature-card">
-                    <div class="icon">📞</div>
-                    <h3>VoIP & Teams Phone</h3>
-                    <ul>
-                        <li>Microsoft Teams telefonie</li>
-                        <li>Nummermigratie</li>
-                        <li>Auto attendant & call queues</li>
-                        <li>Integratie met bestaande systemen</li>
-                    </ul>
-                </div>
-                <div class="feature-card">
-                    <div class="icon">📚</div>
-                    <h3>Training & Adoptie</h3>
-                    <ul>
-                        <li>Gebruikerstraining</li>
-                        <li>Admin-workshops</li>
-                        <li>Documentatie</li>
-                        <li>Change management</li>
-                    </ul>
-                </div>
-                <div class="feature-card">
-                    <div class="icon">⚙️</div>
-                    <h3>Support</h3>
-                    <ul>
-                        <li>SLA-afspraken</li>
-                        <li>Proactieve monitoring</li>
-                        <li>Incident management</li>
-                        <li>Continuous optimization</li>
-                    </ul>
-                </div>
-            </div>
+    <section class="section alt" id="telefonie">
+      <div class="container">
+        <h2>Telefonie</h2>
+        <p class="lead">Heldere bereikbaarheid met VoIP en Teams Phone. Nummerportering zonder stress, slimme wachtrijen en openingstijden.</p>
+        <div class="grid cards">
+          <article class="card">
+            <h3>Teams Phone / VoIP</h3>
+            <ul>
+              <li>Aansluiten van vaste & mobiele nummers</li>
+              <li>Belflows, keuzemenu's en voicemail</li>
+              <li>Rapportages en opnames waar nodig</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Adoptie & training</h3>
+            <ul>
+              <li>Korte, praktische workshops voor gebruikers</li>
+              <li>Handleidingen in jouw huisstijl</li>
+              <li>Meten is weten: post‑go‑live checks</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>SLA & support</h3>
+            <ul>
+              <li>Vaste aanspreekpunten</li>
+              <li>Transparante afspraken</li>
+              <li>Proactieve monitoring</li>
+            </ul>
+          </article>
         </div>
+      </div>
     </section>
 
-    <!-- Internet Section -->
-    <section id="internet" class="section">
-        <div class="container">
-            <h2>Internet & Netwerk</h2>
-            <div class="content-grid">
-                <div class="feature-card">
-                    <div class="icon">🌐</div>
-                    <h3>Connectiviteit</h3>
-                    <ul>
-                        <li>Fiber & kabel verbindingen</li>
-                        <li>SD-WAN oplossingen</li>
-                        <li>Redundante verbindingen</li>
-                        <li>Provider-onafhankelijk advies</li>
-                    </ul>
-                </div>
-                <div class="feature-card">
-                    <div class="icon">📡</div>
-                    <h3>WiFi</h3>
-                    <ul>
-                        <li>Enterprise WiFi design</li>
-                        <li>Site surveys</li>
-                        <li>Ubiquiti & Cisco Meraki</li>
-                        <li>Gastnettwerk-oplossingen</li>
-                    </ul>
-                </div>
-                <div class="feature-card">
-                    <div class="icon">🔒</div>
-                    <h3>Firewalling & Monitoring</h3>
-                    <ul>
-                        <li>Next-gen firewalls</li>
-                        <li>VPN-toegang</li>
-                        <li>24/7 netwerk monitoring</li>
-                        <li>Traffic analysis</li>
-                    </ul>
-                </div>
-            </div>
+    <section class="section" id="internet">
+      <div class="container">
+        <h2>Internet & Netwerk</h2>
+        <p class="lead">Snelle, stabiele verbindingen met goede WiFi en failover. Van glasvezel tot SD‑WAN en site‑to‑site VPN.</p>
+        <div class="grid cards">
+          <article class="card">
+            <h3>Verbindingen</h3>
+            <ul>
+              <li>Zakelijke glasvezel, coax of DSL</li>
+              <li>4G/5G fallback voor continuïteit</li>
+              <li>Publiek/privé IP en VLAN‑design</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Netwerk & WiFi</h3>
+            <ul>
+              <li>Survey, plan en uitrol van WiFi</li>
+              <li>Firewalling, IDS/IPS en webfiltering</li>
+              <li>Gastennetwerken en captive portals</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Beheer & monitoring</h3>
+            <ul>
+              <li>Dashboarding en alerts</li>
+              <li>Firmware‑beheer en configuratieback‑ups</li>
+              <li>Periodieke health‑checks</li>
+            </ul>
+          </article>
         </div>
+      </div>
     </section>
 
-    <!-- Consultancy Section -->
-    <section id="consultancy" class="section section-alt">
-        <div class="container">
-            <h2>Consultancy</h2>
-            <div class="content-grid">
-                <div class="feature-card">
-                    <div class="icon">🔍</div>
-                    <h3>IT-audits</h3>
-                    <ul>
-                        <li>Security assessments</li>
-                        <li>M365 health checks</li>
-                        <li>Infrastructuur-evaluatie</li>
-                        <li>Gap-analyse</li>
-                    </ul>
-                </div>
-                <div class="feature-card">
-                    <div class="icon">🚀</div>
-                    <h3>Implementaties</h3>
-                    <ul>
-                        <li>Cloud-migraties</li>
-                        <li>Tenant-to-tenant migraties</li>
-                        <li>Hybride scenarios</li>
-                        <li>Project management</li>
-                    </ul>
-                </div>
-                <div class="feature-card">
-                    <div class="icon">📊</div>
-                    <h3>Procesoptimalisatie</h3>
-                    <ul>
-                        <li>HaloPSA-implementatie</li>
-                        <li>ITIL-processen</li>
-                        <li>Workflow automation</li>
-                        <li>Ticketing & asset management</li>
-                    </ul>
-                </div>
-            </div>
+    <section class="section alt" id="consultancy">
+      <div class="container">
+        <h2>Consultancy</h2>
+        <p class="lead">Projecten, second opinions en optimalisatie. Ook beschikbaar voor <strong>HaloPSA consultancy</strong> en MSP‑processen.</p>
+        <div class="grid cards">
+          <article class="card">
+            <h3>Audits & Advies</h3>
+            <ul>
+              <li>Quickscan Microsoft 365 en security</li>
+              <li>Netwerkreview: topologie, regels, logging</li>
+              <li>Roadmap met haalbare stappen</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Implementaties</h3>
+            <ul>
+              <li>Migraties naar Microsoft 365/Azure</li>
+              <li>Firewall- en WiFi‑vernieuwingen</li>
+              <li>Back‑up, DR en BCDR‑plannen</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>HaloPSA & MSP</h3>
+            <ul>
+              <li>Processen: tickets, SLA's, rapportages</li>
+              <li>Automatisering & integraties</li>
+              <li>Best‑practices voor teams en klanten</li>
+            </ul>
+          </article>
         </div>
+      </div>
     </section>
 
-    <!-- Over Section -->
-    <section id="over" class="section">
-        <div class="container">
-            <h2>Over ICTKanon</h2>
-            <div class="about-content">
-                <div class="about-text">
-                    <p>ICTKanon is opgericht door Sjoerd Kanon, een ervaren IT-professional met een passie voor cloud-technologie en moderne werkplekoplossingen.</p>
-
-                    <h3>Onze aanpak</h3>
-                    <ul class="values-list">
-                        <li><strong>99.9% Cloud-first:</strong> We geloven in de kracht van de cloud voor flexibiliteit en schaalbaarheid</li>
-                        <li><strong>24/7 Monitoring:</strong> Proactief beheer om issues te voorkomen voordat ze impact hebben</li>
-                        <li><strong>No-nonsense:</strong> Duidelijke communicatie zonder technisch jargon, tenzij gewenst</li>
-                        <li><strong>Vendor-onafhankelijk:</strong> We kiezen de beste oplossing voor uw situatie</li>
-                    </ul>
-
-                    <h3>Expertise</h3>
-                    <p>Met specialisaties in Microsoft 365, moderne telefonie en netwerk-infrastructuur helpen we bedrijven bij hun digitale transformatie. Van kleine organisaties tot enterprise-klanten.</p>
-
-                    <div class="social-links">
-                        <a href="https://linkedin.com/in/sjoerdkanon" target="_blank" rel="noopener" class="linkedin-link">
-                            Volg op LinkedIn
-                        </a>
-                    </div>
-                </div>
+    <section class="section" id="over">
+      <div class="container">
+        <h2>Over ICTKANON</h2>
+        <div class="about">
+          <div class="about-text">
+            <p><strong>ICTKANON</strong> is opgericht door <strong>Sjoerd Kanon</strong>, system engineer en consultant met een hart voor het MKB. Focus op werkplezier voor gebruikers, duidelijke communicatie en oplossingen die het écht beter maken.</p>
+            <ul class="ticks">
+              <li>Geworteld in Microsoft 365 en netwerken</li>
+              <li>Ervaring met MSP‑omgevingen en supportteams</li>
+              <li>No‑nonsense: wat we beloven maken we waar</li>
+            </ul>
+          </div>
+          <aside class="about-aside">
+            <div class="stat">
+              <strong>10+ jaar</strong>
+              <span>IT‑ervaring</span>
             </div>
+            <div class="stat">
+              <strong>⚙︎</strong>
+              <span>Microsoft 365 • Azure • Intune</span>
+            </div>
+            <div class="stat">
+              <strong>🛡</strong>
+              <span>Security & continuïteit</span>
+            </div>
+          </aside>
         </div>
+      </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="section section-alt">
-        <div class="container">
-            <h2>Contact</h2>
-            <div class="contact-wrapper">
-                <div class="contact-info">
-                    <h3>Neem contact op</h3>
-                    <p>Interesse in een samenwerking? Laten we kennismaken over een kop koffie of een videocall.</p>
-
-                    <div class="contact-details">
-                        <div class="contact-item">
-                            <strong>Email:</strong> <a href="mailto:info@ictkanon.be">info@ictkanon.be</a>
-                        </div>
-                        <div class="contact-item">
-                            <strong>Telefoon:</strong> <a href="tel:+32123456789">+32 123 456 789</a>
-                        </div>
-                        <div class="contact-item">
-                            <strong>LinkedIn:</strong> <a href="https://linkedin.com/in/sjoerdkanon" target="_blank" rel="noopener">Sjoerd Kanon</a>
-                        </div>
-                    </div>
-                </div>
-
-                <form class="contact-form" id="contactForm">
-                    <div class="form-group">
-                        <label for="name">Naam *</label>
-                        <input type="text" id="name" name="name" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="company">Bedrijf</label>
-                        <input type="text" id="company" name="company">
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Email *</label>
-                        <input type="email" id="email" name="email" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="phone">Telefoon</label>
-                        <input type="tel" id="phone" name="phone">
-                    </div>
-                    <div class="form-group">
-                        <label for="message">Bericht *</label>
-                        <textarea id="message" name="message" rows="5" required></textarea>
-                    </div>
-                    <button type="submit" class="submit-button">Verstuur bericht</button>
-                </form>
+    <section class="section cta" id="contact">
+      <div class="container">
+        <h2>Contact</h2>
+        <p class="lead">Klaar voor een frisse blik op jouw ICT? Stuur een bericht — we reageren snel.</p>
+        <div class="contact-grid">
+          <form class="contact-form" action="mailto:info@jouwdomein.nl" method="post" enctype="text/plain">
+            <label>Naam<input name="naam" required placeholder="Jouw naam" /></label>
+            <label>E‑mail<input type="email" name="email" required placeholder="jij@bedrijf.nl" /></label>
+            <label>Bericht<textarea name="bericht" rows="5" placeholder="Waar kunnen we bij helpen?"></textarea></label>
+            <button class="btn" type="submit">Verstuur</button>
+            <p class="muted">Tip: vervang het mailadres bovenaan het formulier door je eigen adres.</p>
+          </form>
+          <div class="contact-side">
+            <div class="card soft">
+              <h3>Direct</h3>
+              <ul class="contact-list">
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/sjoerdkanon/">/in/sjoerdkanon</a></li>
+                <li>E‑mail: <a href="mailto:info@jouwdomein.nl">info@jouwdomein.nl</a> <span class="muted">(aanpassen)</span></li>
+              </ul>
             </div>
+            <div class="card soft">
+              <h3>Waarom ICTKANON?</h3>
+              <ul class="ticks">
+                <li>Eerlijk advies, heldere taal</li>
+                <li>Snelle schakelaars, korte lijnen</li>
+                <li>Security‑first zonder poeha</li>
+              </ul>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
+  </main>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <h4>ICTKanon</h4>
-                    <p>Cloud-first IT-beheer & Consultancy</p>
-                </div>
-                <div class="footer-section">
-                    <h4>Navigatie</h4>
-                    <ul class="footer-links">
-                        <li><a href="#werkplek">Werkplek</a></li>
-                        <li><a href="#telefonie">Telefonie</a></li>
-                        <li><a href="#internet">Internet</a></li>
-                        <li><a href="#consultancy">Consultancy</a></li>
-                        <li><a href="#over">Over</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section">
-                    <h4>Contact</h4>
-                    <p>Email: <a href="mailto:info@ictkanon.be">info@ictkanon.be</a></p>
-                    <p>Tel: <a href="tel:+32123456789">+32 123 456 789</a></p>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2024 ICTKanon. Alle rechten voorbehouden.</p>
-            </div>
-        </div>
-    </footer>
+  <footer class="site-footer">
+    <div class="container foot-inner">
+      <p>© <span id="year"></span> ICTKANON. Alle rechten voorbehouden.</p>
+      <nav aria-label="Footer">
+        <a href="#werkplek">Werkplek</a>
+        <a href="#telefonie">Telefonie</a>
+        <a href="#internet">Internet</a>
+        <a href="#consultancy">Consultancy</a>
+        <a href="#over">Over</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </footer>
 
-    <script src="script.js"></script>
+  <button class="to-top" aria-label="Terug naar boven">↑</button>
+
+  <script src="app.js"></script>
 </body>
 </html>
