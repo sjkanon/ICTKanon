@@ -1,0 +1,11 @@
+# robots.txt for ICTKanon
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://ictkanon.be/sitemap.xml
+
+# Disallow admin or private directories (if any)
+# Disallow: /admin/
+# Disallow: /private/
