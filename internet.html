@@ -28,26 +28,22 @@
 </head>
 <body>
     <!-- Navigation -->
-    <nav class="navbar">
-        <div class="container">
-            <div class="nav-wrapper">
-                <a href="index.html" class="logo">ICTKanon</a>
-                <button class="hamburger" id="hamburger" aria-label="Menu">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
-                <ul class="nav-menu" id="navMenu">
-                    <li><a href="werkplek.html" class="nav-link">Werkplek</a></li>
-                    <li><a href="telefonie.html" class="nav-link">Telefonie</a></li>
-                    <li><a href="internet.html" class="nav-link">Internet</a></li>
-                    <li><a href="consultancy.html" class="nav-link">Consultancy</a></li>
-                    <li><a href="over.html" class="nav-link">Over</a></li>
-                    <li><a href="index.html#contact" class="nav-link">Contact</a></li>
-                </ul>
-            </div>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="brand" href="index.html" aria-label="ICTKANON">
+                <img src="assets/logo.png" alt="ICTKANON logo" />
+            </a>
+            <button class="nav-toggle" aria-label="Open navigatie" aria-expanded="false">☰</button>
+            <nav class="site-nav" aria-label="Hoofdnavigatie">
+                <a href="werkplek.html">Werkplek</a>
+                <a href="telefonie.html">Telefonie</a>
+                <a href="internet.html">Internet</a>
+                <a href="consultancy.html">Consultancy</a>
+                <a href="over.html">Over</a>
+                <a href="index.html#contact" class="btn btn-small">Contact</a>
+            </nav>
         </div>
-    </nav>
+    </header>
 
     <!-- Page Header -->
     <section class="page-header">
