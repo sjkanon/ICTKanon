@@ -154,6 +154,3 @@ const yearElement = document.getElementById('year');
 if (yearElement) {
     yearElement.textContent = new Date().getFullYear();
 }
-
-// Log page load
-console.log('ICTKanon website loaded successfully');
