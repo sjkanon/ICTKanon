@@ -4,7 +4,7 @@ Een moderne, multi-page website voor ICTKanon - Cloud-first IT-beheer & Consulta
 
 ## Versie
 
-1.2.2 (December 2025)
+1.3.0 (December 2025)
 
 ## Overzicht
 
@@ -197,11 +197,17 @@ Copyright © 2025 ICTKanon. Alle rechten voorbehouden.
 
 ---
 
-**Versie:** 1.2.2
+**Versie:** 1.3.0
 **Laatst bijgewerkt:** December 2025
 **Gemaakt voor:** ICTKanon - Cloud-first IT-beheer & Consultancy
 
 ## Changelog
+
+### v1.3.0 (December 2025)
+- ✅ Completely replaced styles.css with clean 307-line version for consistency
+- ✅ Added partnership reference to AVH Tech for telefonie services
+- ✅ Telefonie page now includes link to https://www.avhtech.nl/telefonie/
+- ✅ All styling now unified across all pages with no extra detail-page CSS
 
 ### v1.2.2 (December 2025)
 - ✅ Unified all pages to use identical header/footer structure as index.html
